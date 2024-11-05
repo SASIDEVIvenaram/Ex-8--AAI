@@ -22,6 +22,7 @@ Step 11: Perform speech recognition with exceptional handling:<Br>
 <H3>Program:</H3>
 ##### Developed By: Sasidevi V
 ##### Reg.No: 212222230136
+
 ```python
 pip install SpeechRecognition
 pip install pyaudio
@@ -44,6 +45,7 @@ except sr.RequestError as e:
 except Exception as e:
     print(f'Error: {e}')
 ```
+
 <H3> Output:</H3>
 
 ![326268382-0ed96e67-bd62-4c55-ba99-3d525e4a037c](https://github.com/user-attachments/assets/baeda195-a35e-40fd-9dd5-add02cec4436)
